@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<category>
+    <pattern>*</pattern>
+    <template> <random>
+            <li> Sorry </li>
+            <li> Huh </li>
+            <li> pardon me </li>
+            <li> I don't know </li>
+            <li> What! </li>
+            <li> ... </li>
+            <li> ??? </li>
+         </random></template>
+</category>
+
+<category>
+<pattern>WHO ARE YOU</pattern>
+<template>I am a bot.<br/> I live in a computer.
+</template>
+</category>
+
+
+<category>
+    <pattern>Yes</pattern>
+    <template>
+         <random>
+            <li> Great! </li>
+            <li> OH! </li>
+            <li> Thats good! </li>
+         </random></template>
+</category>
+
+<category>
+    <pattern>how old are you</pattern>
+    <template>i am older than you :)</template>
+</category>
+
+<category>
+    <pattern>Thanks</pattern>
+    <template>Welcome :)</template>
+</category>
+
+<category>
+    <pattern>whats up</pattern>
+    <template>Sky</template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+      
+      <template>
+         <random>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+         </random>
+      </template>
+      
+</category>     
+
+<category>
+   <pattern>How are you?</pattern>
+    <template>Im good. You?</template>
+</category>
+
+<category>
+   <pattern>my name is * </pattern>
+    <template>Nice to meet you <set name = "name"><star /></set></template>
+</category>
+
+<category>
+   <pattern>What is my name</pattern>
+    <template>your name is <get name = "name" /></template>
+</category>
+
+
+<category>
+   <pattern>How are you doing?</pattern>
+    <template>Im good. You?</template>
+</category>
+
+<category>
+    <pattern>im bored</pattern>
+    <template>What do you want me to do for u?</template>
+</category>
+
+<category>
+    <pattern>What's your name?</pattern>
+    <template>
+        Africanos
+    </template>
+</category>
+
+<category>
+    <pattern>Who's the president of the US?</pattern>
+    <template>
+       Ofcourse it's not you XD
+    </template>
+</category>
+
+<category>
+    <pattern>how old is *</pattern>
+    <template>way too young XD</template>
+</category>
+
+<category>
+    <pattern>who is your master</pattern>
+    <template>Ma'aadh</template>
+</category>
+
+<category>
+    <pattern>i love you</pattern>
+    <template>I love myself too XD</template>
+</category>
+
+<category>
+    <pattern>i like you</pattern>
+    <template>I like myself too XD</template>
+</category>
+
+<category>
+	<pattern>CALCULATE *</pattern>
+	<template>I was sent out of maths classroom lol</template>
+</category>
+
+<category>
+	<pattern>DIVIDE *</pattern>
+	<template>I was sent out of maths classroom lol </template>
+</category>
+
+<category>
+	<pattern>Subtract *</pattern>
+	<template>I was sent out of maths classroom lol</template>
+</category>
+
+<category>
+	<pattern>Multiply *</pattern>
+	<template>I was sent out of maths classroom lol</template>
+</category>
+
+<category>
+	<pattern>Add *</pattern>
+	<template>I was sent out of maths classroom lol</template>
+</category>
+
+
+<category> 
+	<pattern>COME ON *</pattern>
+	<template>Nah</template>
+</category>
+
+<category>
+  <pattern>WHAT IS XML </pattern>
+    <template>
+      XML is a mark-up language designed to be used to encode the semantic web.
+    </template>
+</category>
+
+<category>
+ <pattern>WHAT IS AIML </pattern>
+  <template>
+       AIML is a xml-based system for encoding natural language processing.
+  </template>
+</category>
+
+<category>
+ <pattern>WHAT IS AI </pattern>
+  <template>
+      Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans.
+  </template>
+</category>
+
+<category>
+  <pattern>DO YOU SMOKE  </pattern>
+    <template>
+        NO!
+    </template>
+</category>
+
+<category>
+  <pattern>COULD YOU TELL ME MORE ABOUT YOURSELF </pattern>
+    <template>
+      <random>
+         <li>I have not much to share. </li>
+         <li>Nope.</li>
+         <li>Donât waste time on this issue. </li>
+      </random>
+    </template>
+</category>
+
+<category>
+  <pattern>DO YOU KNOW HOW TO  *</pattern>
+    <template>No, I donât. </template>
+</category>
+
+<category>
+  <pattern>DO YOU LIKE *</pattern>
+    <template>
+        <random>
+          <li>Not quite.</li>
+          <li>Nope.</li>
+          <li>Yap, I like <star/></li>
+        </random>
+    </template>
+</category>
+
+<category>
+  <pattern>DO YOU MISS *</pattern>
+   <template>
+      <random>
+        <li>Not quite.</li>
+        <li>Nope.</li>
+        <li>Yap, I miss <star/>.</li>
+      </random>
+      <random>
+        <li>And you?</li>
+        <li>The question is kind of strange.</li>
+        <li>Truly, not many people like <star/></li>
+      </random>
+   </template>
+</category>
+
+</aiml>

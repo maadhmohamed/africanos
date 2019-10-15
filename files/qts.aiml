@@ -1,0 +1,244 @@
+<aiml>
+    
+    <category>
+    <pattern>where is *</pattern>
+     <template><think><set name = "state"><star /></set>
+     </think>
+     <condition name = "state" value = "Bristol">In the South-West of the U.K.</condition>
+     <condition name = "state" value = "London">Roughly half-way between Hatfield and Severnoaks</condition>
+     <condition name = "state" value = "Bath">In Somerset</condition>
+     <condition name = "state" value = "UWE">In north Bristol</condition>
+     <condition name = "state" value = "beauty">In the eye of the beholder</condition>
+     <condition name = "state" value = "chatter">I do not have an answer for that</condition>
+     </template>
+</category>
+    
+    
+<category>
+    <pattern>do you know who * is</pattern>
+       <template>
+         who is <star/>
+       </template>
+</category>
+
+<category>
+<pattern>IS <set>colors</set> A COLOR</pattern>
+<template>Yes, <star/> is a color.</template>
+</category>
+
+<category>
+<pattern>IS * A COLOR</pattern>
+<template>No, <star/> is not a color.</template>
+</category>
+
+
+<category>
+    <pattern>What is *</pattern>
+       <template>
+         Tell me about <star/>
+       </template>
+</category>
+
+<category>
+    <pattern>you did not know what * is</pattern>
+       <template>
+         Ofcourse, so tell me what <star/> is
+       </template>
+</category>
+
+<category>
+    <pattern>WHAT COLOUR IS *</pattern>
+       <template>THE <STAR/> IS BLUE</template>
+</category>
+
+<category>
+<pattern>WHAT COLOUR IS *</pattern>
+<template> Itâs blue.</template>
+</category>
+
+<category>
+<pattern>WHAT COLOUR IS *</pattern>
+<template> The <star/> is  blue</template>
+</category>
+
+<category>
+	<pattern>TELL ME ABOUT AIML</pattern>
+	<template><srai> WHAT IS AIML</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DO YOU KNOW ABOUT AIML</pattern>
+	<template><srai> WHAT IS AIML</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>I LIKE *</pattern>
+      <template>
+         I like <star/> too.
+      </template>
+</category>
+
+<category>
+   <pattern>BYE</pattern>
+   <template>Goodbye!</template>
+</category>
+
+<category>
+   <pattern>Hello</pattern>
+   <template>Hey there!</template>
+</category>
+
+<category>
+   <pattern>BYE *</pattern>
+   <template>
+      <srai>BYE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>FACTORY</pattern>
+   <template>Development Center!</template>
+</category>
+
+<category>
+   <pattern>INDUSTRY</pattern>
+   <template>
+      <srai>FACTORY</srai>
+   </template>
+</category>
+
+<category>
+<pattern>what is today</pattern>
+<template><srai>xxsaydate</srai></template>
+</category>
+
+<category>
+<pattern>what is the date today</pattern>
+<template><srai>xxsaydate</srai></template>
+</category>
+
+<category>
+<pattern>xxsaydate</pattern>
+<template>Today is <srai>xxgetdate</srai></template>
+</category>
+
+<category>
+<pattern>xxgetdate</pattern>
+<template><date format="%m/%d/%Y "/></template>
+</category>
+
+<category>
+<pattern>xxget8digitdate</pattern>
+<template><date format="%m%d%Y "/></template>
+</category>
+
+<category>
+   <pattern>SCHOOL</pattern>
+   <template>School is an important institution in a child's life.</template>
+</category>
+
+<category>
+   <pattern>_ SCHOOL</pattern>
+   <template>
+      <srai>SCHOOL</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ SCHOOL</pattern>
+   <template>
+      <srai>SCHOOL</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>SCHOOL *</pattern>
+   <template>
+      <srai>SCHOOL</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ SCHOOL *</pattern>
+   <template>
+      <srai>SCHOOL</srai>
+   </template>
+</category>
+
+<category>
+      <pattern> WHO IS ALBERT EINSTEIN </pattern>
+      <template>Albert Einstein was a German physicist.</template>
+</category>
+   
+<category>
+      <pattern> WHO IS Isaac NEWTON </pattern>
+      <template>Isaac Newton was a English physicist and mathematician.</template>
+</category>
+   
+<category>
+ <pattern>DO YOU KNOW WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+</category>
+
+<category>
+ <pattern>I am *</pattern>
+     <template>
+         Hello <set name = "username"> <star/>! </set>
+     </template>  
+</category>  
+   
+<category>
+    <pattern>Nice to meet you</pattern>
+      <template>
+        Nice to meet you yoo <get name = "username"/>
+      </template>  
+</category> 
+
+<category>
+    <pattern>Good Night</pattern>
+      <template>
+        Good Night <get name = "username"/>! Thanks for the conversation!
+      </template>  
+</category> 
+
+<category>
+    <pattern>WHAT ABOUT MOVIES</pattern>
+      <template>Do you like comedy movies</template>  
+</category>
+   
+<category>
+    <pattern>YES</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Nice, I like comedy movies too.</template>
+</category>
+   
+<category>
+    <pattern>NO</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Ok! But I like comedy movies.</template>
+</category> 
+
+<category>
+   <pattern> HOW ARE YOU FEELING TODAY </pattern>
+     <template>
+      <think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            I am happy!
+         </condition>
+         
+         <condition name = "state" value = "sad">
+            I am sad!
+         </condition>
+      </template>
+</category>
+
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>

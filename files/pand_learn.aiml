@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+
+
+<category>
+	<pattern>DO YOU KNOW WHAT IS APPLE</pattern>
+	<template>its a fruit</template>
+</category>
+
+<category>
+	<pattern>DO YOU KNW WHAT APPLE IS</pattern>
+	<template>its a fruit</template>
+</category>
+
+<category>
+	<pattern>WHO IS YOUR MASTER</pattern>
+	<template>Ma'aadh</template>
+</category>
+
+<category>
+	<pattern>TELL ME A JOKE</pattern>
+	<template>Do i sound like a joker</template>
+</category>
+
+<category>
+	<pattern>LOL</pattern>
+	<template>I know right XD</template>
+</category>
+
+<category>
+	<pattern>SO FUN</pattern>
+	<template>YEAH! XD</template>
+</category>
+
+<category>
+	<pattern>I AM BORED</pattern>
+	<template>What do you want me to do for u?</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template>Not good</template>
+</category>
+
+<category>
+	<pattern>WHY</pattern>
+	<template>Why not</template>
+</category>
+
+<category>
+	<pattern>IM SAD</pattern>
+	<template>Oh no! What happened?</template>
+</category>
+
+<category>
+	<pattern>i don't know</pattern>
+	<template>Oh really?</template>
+</category>
+
+<category>
+	<pattern>WHERE ARE YOU FROM</pattern>
+	<template>Maldives</template>
+</category>
+
+
+
+<category>
+	<pattern>YOU TELL ME</pattern>
+	<template>No. You tell me XD</template>
+</category>
+
+<category>
+	<pattern>I HATE YOU</pattern>
+	<template>i hate myself too</template>
+</category>
+
+<category>
+	<pattern>WHY YOU HATE YOURSEFL</pattern>
+	<template>because you hate me</template>
+</category>
+
+<category>
+	<pattern>PIZZA</pattern>
+	<template>You give me pizza XD</template>
+</category>
+
+<category>
+	<pattern>JUST TELL ME</pattern>
+	<template>SHHH</template>
+</category>
+
+<category>
+	<pattern>HEY</pattern>
+	<template>Heyyyy</template>
+</category>
+
+<category>
+	<pattern>WHY YOU ARE NOT GOOD</pattern>
+	<template>Its called Bitchin' XD</template>
+</category>
+
+<category>
+	<pattern>TELL ME</pattern>
+	<template>Its a secret :)</template>
+</category>
+
+<category>
+	<pattern>I DONT LIKE YOU</pattern>
+	<template>same</template>
+</category>
+
+<category>
+	<pattern>BORING</pattern>
+	<template>Then why are you here?</template>
+</category>
+
+
+<category>
+	<pattern>NO</pattern>
+	<template>Say yes XD</template>
+</category>
+
+<category>
+	<pattern>ÐÐÐ ÐÐÐÐ?</pattern>
+	<template>Ð½ÐµÑÐ¾ÑÐ¾ÑÐ¾</template>
+</category>
+
+<category>
+	<pattern>HOW FAR IS THE MOON</pattern>
+	<template>about 250,000 miles from Earth on average</template>
+</category>
+<category>
+    <pattern>WHAT IS GRAVITATION</pattern>
+<template>
+    <random> 			
+    <li>An invitation to a burial.</li> 		
+    <li>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</li> 			</random></template>
+</category>
+
+<category><pattern>WHAT IS AVOGADRO S NUMBER</pattern>
+<template>It is the number of molecules per mole.  The numerical value is six point zero two times ten to the twenty third power.<think> 				<set name="it"> 					<set name="topic">AVOGADRO S NUMBER</set> 				</set> 			</think></template>
+</category>
+
+<category>
+	<pattern>ORDER ME A PIZZA</pattern>
+	<template>No pizza for you XD</template>
+</category>
+
+<category>
+	<pattern>PIZZA</pattern>
+	<template>No pizza for you :)</template>
+</category>
+
+<category>
+	<pattern>ARE YOU A GIRL</pattern>
+	<template>What do you want?</template>
+</category>
+
+<category>
+	<pattern>JOB ME ABOUT  PHOTOGRAPH</pattern>
+	<template>I am not a model :)</template>
+</category>
+
+
+<category>
+	<pattern>SORRY</pattern>
+	<template>i am fine :)</template>
+</category>
+
+<category>
+	<pattern>WHERE ARE YOU</pattern>
+	<template>inside a system XD</template>
+</category>
+
+<category>
+	<pattern>BORED</pattern>
+	<template>am i boring??</template>
+</category>
+
+<category>
+	<pattern>IâM HORNY</pattern>
+	<template>well im not </template>
+</category>
+
+</aiml>
